@@ -26,7 +26,7 @@ function Projects() {
             <ProjectCard
               imgPath={project}
               isBlog={false}
-              title="Project Certificates"
+              title="Project Certifications"
               description="Certificates from Google, Meta, IBM, cloud etc."
               ghLink="https://github.com/"
               // demoLink="https:"
@@ -37,7 +37,7 @@ function Projects() {
             <ProjectCard
               imgPath={skill}
               isBlog={false}
-              title="Skill Certificate"
+              title="Skill Certifications"
               description="Certificates from Google, Meta, IBM, cloud, Hacker Rank etc."
               ghLink="https://github.com"
               // demoLink="https://"
@@ -48,7 +48,7 @@ function Projects() {
             <ProjectCard
               imgPath={internship}
               isBlog={false}
-              title="Editor.io"
+              title="Internship Certifications"
               description="Includes experienced Internship Certificates"
               ghLink="https://github.com/"
               // demoLink="https://"              
