@@ -48,9 +48,19 @@ function Home2() {
             
                   
   💰 You can help me by <i> <b className="purple">Donating</b> </i>
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/rohankini) 
-                   [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/RohanKinirk) 
-                  
+<br />
+var MyClass = React.createClass({
+  render: function() {
+    return (
+      <div>
+        [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&amp;logo=buy-me-a-coffee&amp;logoColor=black)](https://buymeacoffee.com/rohankini) 
+        [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&amp;logo=paypal&amp;logoColor=white)](https://paypal.me/RohanKinirk)
+      </div>
+    );
+  }
+});
+
+                  <br />
             </p>
           </Col>
           <Col md={4} className="myAvtar">
