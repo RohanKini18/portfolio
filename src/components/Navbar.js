@@ -97,7 +97,7 @@ function NavBar() {
                 href="urdeviceinfo.vercel.app/"
                 onClick={() => updateExpanded(false)}
               >
-                <SiTryhackme style={{ marginBottom: "2px" }} />  🫵🏻 Device Info
+                <SiTryhackme style={{ marginBottom: "2px" }} /> Device Info
               </Nav.Link>
             </Nav.Item>
             
