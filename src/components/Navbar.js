@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="urdeviceinfo.vercel.app/"
+                href="https://urdeviceinfo.vercel.app/"
                 onClick={() => updateExpanded(false)}
               >
                 <SiTryhackme style={{ marginBottom: "2px" }} /> Device Info
