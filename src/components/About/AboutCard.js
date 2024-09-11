@@ -23,16 +23,19 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Vedio Games i.e genshin impact, Call of Duty
             </li>
             <li className="about-activity">
               <ImPointRight /> Exploring Featuristic Automobiles
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Travel
             </li>
             <li className="about-activity">
-              <ImPointRight /> Gym Workouts
+              <ImPointRight /> Gym
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Long Drive
             </li>
           </ul>
 

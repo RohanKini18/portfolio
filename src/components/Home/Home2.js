@@ -21,28 +21,26 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Hi, I'm <i>
-                <b className="purple"> Rohan Kini</b>
-              </i> a software developer with a background of <i>
+                <b className="purple"> Rohan Kini </b>
+                from Mangalore, a Undergraduate pursuing <b className="purple"> B.Tech in Computer Science & Engineering </b>
+                 in NMAMIT, Nitte.  
+              </i> A software Engineer with a background of <i>
                 <b className="purple"> AI and Natural Language</b>
               </i> Processing.
-              specialize in creating intelligent systems that interact with users in natural, conversational ways. 
+              Specialize in creating intelligent systems that interact with users in natural, conversational ways.
               <br />
-              Whether it's developing 
-              <i>
-                <b className="purple"> complex algorithms, optimizing code for efficiency, or working on full-stack web applications</b>
-              </i>
-              , I enjoy solving challenging problems with innovative solutions.
-              
-        
+              I'm Certified <b className="purple">Google Cybersecurity</b>.
               <br />
               <br />
-              My field of Interest's are in &nbsp;
+              Working on <b className="purple">Machine Learning & AI </b>related Projects.
+              <br />
+
+              Learning&nbsp;
               <i>
                 <b className="purple"> Ai Automation</b> and
-                also in areas related to{" "}
+                working on {" "}
                 <b className="purple">
-                  Ai integrated Automobile Stuff.
-                </b>
+                  Ai integrated Automobile Stuff </b>in Future.
               </i>
               <br />
             </p>
@@ -77,7 +75,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                <FaSquareXTwitter />
+                  <FaSquareXTwitter />
                 </a>
               </li>
               <li className="social-icons">

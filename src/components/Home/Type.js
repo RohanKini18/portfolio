@@ -9,6 +9,7 @@ function Type() {
           "Software Engineer",
           "ML Engineer",
           "Mern-Stack Developer",
+          "Google Cybersecurity"
           
         ],
         autoStart: true,
