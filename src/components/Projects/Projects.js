@@ -37,7 +37,7 @@ function Projects() {
             <ProjectCard
               imgPath={DL}
               isBlog={true}
-              title="driving licence"
+              title="Drivers-Licence"
               description="A driving licence is an official document that permits an individual to operate one or more types of motorized vehicles, such as a motorcycle, car, truck, or bus on a public road. It is issued by a governmental authority and serves as proof that the holder has been trained and tested in the rules of the road and the operation of the vehicle."
               ghLink="https://drive.google.com/file/d/1faYqEM-jzlg50aEpGX2afTsvmmRO-4PI/view?usp=drive_link"
               style={{ maxWidth: "250px" }}
