@@ -19,31 +19,19 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
-              Hi, I'm <i>
-                <b className="purple"> Rohan Kini </b>
-                from Mangalore, a Undergraduate pursuing <b className="purple"> B.Tech in Computer Science & Engineering </b>
-                 in NMAMIT, Nitte.  
-              </i> A software Engineer with a background of <i>
-                <b className="purple"> AI and Natural Language</b>
-              </i> Processing.
-              Specialize in creating intelligent systems that interact with users in natural, conversational ways.
-              <br />
-              I'm Certified <b className="purple">Google Cybersecurity</b>.
-              <br />
-              <br />
-              Working on <b className="purple">Machine Learning & AI </b>related Projects.
-              <br />
+            <p className="home-about-body" style={{ textAlign: "justify" }}> 
+            Hi, I'm <i><b className="purple">Rohan Kini</b></i> from Mangalore, currently pursuing a <b className="purple">B.Tech in Computer Science & Engineering</b> at N.M.A.M Institute of Technology, Nitte.
 
-              Learning&nbsp;
-              <i>
-                <b className="purple"> Ai Automation</b> and
-                working on {" "}
-                <b className="purple">
-                  Ai integrated Automobile Stuff </b>in Future.
-              </i>
-              <br />
-            </p>
+<br /><br />
+
+I'm a passionate <b className="purple">Software Engineer</b> with a strong interest in <i><b className="purple">Embedded Systems</b></i>, working extensively with platforms like <b className="purple">Arduino</b>, <b className="purple">Raspberry Pi</b>, and <b className="purple">Xbox processors</b>. I specialize in building intelligent and interactive systems that offer natural, conversational user experiences.
+
+
+
+<br /><br />
+
+Looking forward to working on <b className="purple">AI-integrated automotive and robotics technologies</b> in the future.
+            </p>  
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

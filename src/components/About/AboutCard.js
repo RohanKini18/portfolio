@@ -1,43 +1,98 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+// import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
+        <blockquote className="blockquote mb-0">  
 
-          <p style={{ textAlign: "justify" }}>
-          I have worked in <span className="purple">Tor-Secure industry</span>  for over <span className="purple"> 6 Months</span> , with experience in <span className="purple">Security development, project management, and team leadership</span>. <br />  <br /> I have worked on projects for clients in various industries and have a proven track record of delivering high-quality products on time and within budget. <br />
-            <br />
-            I am currently pursuing BTech CSE from <span className="purple">NMAMIT, Nitte</span>.
-            <br />
-            <br />
-            I am passionate about giving back to the community and regularly volunteer at a local non-profit organization that provides education and career training to underprivileged youth.
-            <br />
-            <br />
-            
-            Apart from coding, some other activities that I love to do!
-          </p>
+        <p style={{ textAlign: "justify" }}>
+  Feel free to reach out to me by filling out the form below. I’d love to connect!
+</p>
 
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Vedio Games i.e genshin impact, Call of Duty
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Exploring Featuristic Automobiles
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travel
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Gym
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Long Drive
-            </li>
-          </ul>
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <form
+    action="https://formsubmit.co/rohankini.rk18@gmail.com"
+    method="POST"
+    style={{
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '1rem',
+      maxWidth: '500px',
+      width: '100%',
+      padding: '2rem',
+      borderRadius: '12px',
+      backgroundColor: '#ffffff',
+      boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+    }}
+  >
+    {/* Honeypot field to prevent spam */}
+    <input type="hidden" name="_captcha" value="false" />
+
+    {/* Redirect after submission */}
+    <input type="hidden" name="_next" value="https://www.rohantkini.in/thank-you" />
+
+    <h2 style={{ textAlign: 'center', color: '#6b21a8', fontWeight: 'bold', fontSize: '1.5rem' }}>
+      Contact Me
+    </h2>
+
+    <input
+      type="text"
+      name="name"
+      placeholder="Your Name"
+      required
+      className="form-control"
+      style={{ padding: '10px', borderRadius: '8px', border: '1px solid #ccc' }}
+    />
+
+    <input
+      type="email"
+      name="email"
+      placeholder="Your Email"
+      required
+      className="form-control"
+      style={{ padding: '10px', borderRadius: '8px', border: '1px solid #ccc' }}
+    />
+
+    <input
+      type="text"
+      name="subject"
+      placeholder="Subject"
+      required
+      className="form-control"
+      style={{ padding: '10px', borderRadius: '8px', border: '1px solid #ccc' }}
+    />
+
+    <textarea
+      name="message"
+      rows="5"
+      placeholder="Your Message"
+      required
+      className="form-control"
+      style={{ padding: '10px', borderRadius: '8px', border: '1px solid #ccc' }}
+    ></textarea>
+
+    <button
+      type="submit"
+      className="btn btn-primary"
+      style={{
+        padding: '10px',
+        borderRadius: '8px',
+        backgroundColor: '#6b21a8',
+        color: 'white',
+        fontWeight: 'bold',
+        border: 'none',
+        cursor: 'pointer',
+      }}
+    >
+      Submit
+    </button>
+  </form>
+</div>
+<br /><br />
+
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
