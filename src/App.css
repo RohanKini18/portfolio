@@ -4,9 +4,9 @@
   -webkit-user-select: none; /* Safari */
   -moz-user-select: none;    /* Firefox */
   -ms-user-select: none;     /* IE10+/Edge */
-  -webkit-touch-callout: none; /* Safari */
-  /*-webkit-font-smoothing: antialiased;  Improve font rendering on WebKit browsers */
-  /*-moz-osx-font-smoothing: grayscale;  Improve font rendering on Firefox */
+  /*-webkit-touch-callout: none; /* Safari */
+  -webkit-font-smoothing: antialiased;  /*Improve font rendering on WebKit browsers */
+  -moz-osx-font-smoothing: grayscale;  /*Improve font rendering on Firefox */
 
 }
 .App {
