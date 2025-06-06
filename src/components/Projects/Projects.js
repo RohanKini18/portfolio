@@ -9,21 +9,37 @@ import DL from "../../Assets/Projects/DL.png";
 import PANC from "../../Assets/Projects/panc.png";
 import passport from "../../Assets/Projects/passport.png";
 import profile from "../../Assets/Projects/profile.png";
-
+import DT from "../../Assets/Projects/projects-img/ht.png";
+import LPG from "../../Assets/Projects/projects-img/lpg.png";
+import tempe from "../../Assets/Projects/projects-img/temp.png";
+import wifi from "../../Assets/Projects/projects-img/wifi.png";
 // Project Items
 const projectItems = [
-  // {
-  //   img: adh,
-  //   title: "Adhaar Card System",
-  //   desc: "Issued by UIDAI, Aadhaar is a unique 12-digit identity number used for verification and services across India.",
-  //   link: "https://drive.google.com/file/d/1sDeyXguKZ6tADCg_i1G3gnkGuiKI3rSD/view?usp=drive_link",
-  // },
-  // {
-  //   img: DL,
-  //   title: "Driving Licence System",
-  //   desc: "Government-issued licence permitting individuals to operate various vehicles on public roads.",
-  //   link: "https://drive.google.com/file/d/1faYqEM-jzlg50aEpGX2afTsvmmRO-4PI/view?usp=drive_link",
-  // },
+  {
+    img: DT, 
+    title: "Detection of Temperature & Humidity System",
+    desc: "A system that monitors and detects temperature and humidity levels in various environments, ensuring optimal conditions.",
+    link: "https://github.com/RohanKini18/Determining-Temperature-Humidity-IOT",
+  },
+  {
+    img: LPG, //pending
+    title: "LPG GAS Detection System",
+    desc: "A system designed to detect amount leaks in LPG gas pipelines, ensuring safety and preventing accidents.",
+    link: "https://github.com/RohanKini18/LPG-GAS-Variation-Detection-IOT",
+  },
+  {
+    img: tempe, //pending
+    title: "DS18B20 waterproof temperature Detection System",
+    desc: "A system that uses the DS18B20 temperature sensor to measure and monitor temperature in various environments.",
+    link: "https://github.com/RohanKini18/Waterproof-Temperature-Detection-IOT",
+  },
+  {
+    img: wifi,  //pending
+    title: "ESP8266 Wi-Fi microchip - Building a Wi-Fi Hacking Toolkit",
+    desc: "A system on a chip (SOC) with a built-in TCP/IP protocol stack that allows microcontrollers to connect to Wi-Fi networks and perform a variety of function.",
+    link: "https://github.com/RohanKini18/wifi_connectivity_",
+  },
+
 ];
 
 // Document Items
@@ -48,13 +64,13 @@ const documentItems = [
   },
   {
     img: adh,
-    title: "Adhaar Card System",
+    title: "Adhaar Card",
     desc: "Issued by UIDAI, Aadhaar is a unique 12-digit identity number used for verification and services across India.",
     link: "https://drive.google.com/file/d/1sDeyXguKZ6tADCg_i1G3gnkGuiKI3rSD/view?usp=drive_link",
   },
   {
     img: DL,
-    title: "Driving Licence System",
+    title: "Driving Licence",
     desc: "Government-issued licence permitting individuals to operate various vehicles on public roads.",
     link: "https://drive.google.com/file/d/1faYqEM-jzlg50aEpGX2afTsvmmRO-4PI/view?usp=drive_link",
   },
