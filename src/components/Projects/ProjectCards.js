@@ -15,18 +15,15 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
-        
-        
-        {props.isBlog ? (
-  <>
-    <FaDownload /> &nbsp;Download
-  </>
-) : (
-  <>
-    <BsGithub /> &nbsp;GitHub
-  </>
-)}
-
+          {props.isBlog ? (
+            <>
+              <FaDownload /> &nbsp;Download
+            </>
+          ) : (
+            <>
+              <BsGithub /> &nbsp;GitHub
+            </>
+          )}
         </Button>
         {"\n"}
         {"\n"}

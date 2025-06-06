@@ -41,7 +41,9 @@ button:focus {
 #preloader-none {
   opacity: 0;
 }
-
+.pagination-buttons button {
+  font-weight: bold;
+}
 #no-scroll {
   overflow: hidden;
   height: 100vh;
@@ -592,8 +594,6 @@ button:focus {
   text-align: left !important;
   padding-left: 1px !important;
 }
-
-
 
 @media (max-width: 767px) {
   .about-img {
