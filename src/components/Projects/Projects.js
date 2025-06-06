@@ -103,7 +103,7 @@ function Projects() {
           <ButtonGroup>
             <Button
               variant={
-                selectedPage === "projects" ? "primary" : "outline-primary"
+                selectedPage === "projects" ? "primary" : "outline-light"
               }
               onClick={() => setSelectedPage("projects")}
             >
@@ -111,7 +111,7 @@ function Projects() {
             </Button>
             <Button
               variant={
-                selectedPage === "documents" ? "primary" : "outline-primary"
+                selectedPage === "documents" ? "primary" : "outline-light"
               }
               onClick={() => setSelectedPage("documents")}
             >
